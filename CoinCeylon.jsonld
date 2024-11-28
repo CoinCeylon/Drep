@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "CoinCeylon"
+    },
+    "motivations": {
+      "@value": "Our motivation to become a DRep stems from a deep belief in the power of decentralized governance to create meaningful change. At Coin Ceylon, we have actively engaged in building Sri Lanka’s Cardano community, growing it into one of the most vibrant hubs in Asia. This journey has shown us the immense potential of Cardano to empower individuals and drive innovation.\nProfessionally, our team has extensive experience in blockchain education, governance initiatives, and community building. From launching Sri Lanka’s first Cardano Stake Pool to hosting governance workshops and university programs, we’ve consistently contributed to the ecosystem’s growth.\nPersonally, we are driven by a vision of inclusivity and equity, ensuring all voices are heard, especially those from emerging regions. By becoming a DRep, we aim to bridge local insights with global governance, leveraging our expertise and passion to shape a thriving, decentralized future for Cardano."
+    },
+    "objectives": {
+      "@value": "At Coin Ceylon, we believe in Cardano’s transformative potential to foster economic growth, technological innovation, and social inclusion globally. As a DRep, our mission is to amplify the voices of our community, ensuring their needs are reflected in Cardano’s governance.\n\nWe aim to:\n\nEmpower Communities: Promote education, awareness, and blockchain adoption while bridging global initiatives with local users.\nAdvocate Inclusivity: Champion proposals enhancing accessibility, multilingual support, and representation for underrepresented groups.\nFoster Innovation: Support developers, startups, and projects building impactful solutions on Cardano.\nPromote Transparency: Uphold decentralization and ethical governance in decision-making.\nCollaborate Globally: Partner with other DReps and stakeholders to share knowledge, resources, and best practices.\nBy serving as a DRep, we aim to ensure our community’s wisdom shapes Cardano’s future, creating a resilient, inclusive & prosperous ecosystem."
+    },
+    "paymentAddress": {
+      "@value": "addr1q9y4a0aka4vwnt5k9yasaj4c2cfsukedus5n6ur8ks9re3djs2hstx87udxwduvedl5zlt5kxcwjj3gfq9p2tnht76ysggyu0h"
+    },
+    "qualifications": {
+      "@value": "Coin Ceylon brings a wealth of experience & qualifications to the role of DRep, actively contributing to Cardano’s growth in Sri Lanka and beyond.\n\nCommunity Leadership: Founded &  manage the CoinCeylon x Intersect Hub, the 1st in South Asia & 2nd largest globally, growing it to over 400 members in 6 months & hosting multiple events, including workshops, meetups, &  expo booths.\nBlockchain Expertise: Launched Sri Lanka’s 1st Cardano Stake Pool, CNFT collection, &  blockchain forum, connecting the global community & conducted university workshops on blockchain & Cardano development.\nGovernance Participation: Organized Constitutional Workshops, provided input to the draft constitution contributing to governance discussions within Intersect.\nProfessional Skills: Extensive experience in blockchain education, content creation, and community building, with expertise in dApp development.\nGlobal Collaboration: Partnered with Cardano stakeholders worldwide to promote decentralized governance."
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Coin Ceylon Website"
+        },
+        "uri": {
+          "@value": "www.coinceylon.com"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Coin Ceylon X"
+        },
+        "uri": {
+          "@value": "https://x.com/Coin_Ceylon"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Coin Ceylon LinkedIn"
+        },
+        "uri": {
+          "@value": "https://www.linkedin.com/company/coinceylon/"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Coin Ceylon Instagram"
+        },
+        "uri": {
+          "@value": "https://www.instagram.com/coinceylon/"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Coin Ceylon Facebook"
+        },
+        "uri": {
+          "@value": "https://www.facebook.com/coinceylon"
+        }
+      },
+      {
+        "@type": "Identity",
+        "label": {
+          "@value": "CoinCeylon X"
+        },
+        "uri": {
+          "@value": "https://x.com/Coin_Ceylon"
+        }
+      }
+    ]
+  }
+}
