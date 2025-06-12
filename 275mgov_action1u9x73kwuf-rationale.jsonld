@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "comment": "CIP100:comment",
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "comment": "**🚨Decision Update - Coin Ceylon DRep has voted YES on Cardano Blockchain Ecosystem Budget - 275M ada Administered by Intersect** - We believe this decision deserves full context. \nTo understand our position and the rationale behind our vote, read more at -🌐 - https://www.coinceylon.com/drep/#our-rationales",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Governance Action",
+        "uri": "https://cardanoscan.io/transaction/e14de8d9dc4f4ddf3fe9250a8a926e20f10e99b86bd0610b77d7a054981591ee?tab=utxo#0"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "drep1yfg2u28p4xuh5u5lv839vcfd6k2knptfw0avtefpyw4x3dsu5pu25"
+    }
+  ]
+}
